@@ -23,4 +23,9 @@ console.log(someNumber.toUpperCase());
 // Error 15: added quotes
 let greeting = "Hello, world!";
 
+// Error 8: console.log looks wrong but I can't figure out why
+let number1 = 10;
+let number2 = 5;
+console.log('Sum is: ' + (number1 - number2));
+
 

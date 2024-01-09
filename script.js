@@ -34,7 +34,7 @@ function testFunction() {
   console.log('Test function executed');
 }
 
-// Error 8:
+// Error 8: console.log looks wrong but I can't figure out why
 let number1 = 10;
 let number2 = 5;
 console.log('Sum is: ' + (number1 - number2));
