@@ -43,9 +43,9 @@ console.log('Sum is: ' + (number1 - number2));
 let nullVar = null;
 console.log(nullVar.length);
 
-// Error 10:
+// Error 10: changed the case of a c
 let caseSensitiveVar = 'Case matters';
-console.log(CaseSensitiveVar);
+console.log(caseSensitiveVar);
 
 // Error 11:
 let importantData =
