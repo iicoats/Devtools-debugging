@@ -40,4 +40,8 @@ if (five === 5) {
     console.log('Five is not equal to 5'); 
 }
 
+// Error 19: there is no function or anything to find the value of x. I dont feel comfortable doing it
+console.log(x);
+x = 5;
+
 
