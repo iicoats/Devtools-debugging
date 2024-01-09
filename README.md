@@ -33,3 +33,11 @@ let nullVar = null;
 console.log(nullVar.length);
 
 
+let five = '5';
+if (five === 5) {
+    console.log('Five is equal to 5'); // This one should be logged
+} else {
+    console.log('Five is not equal to 5'); 
+}
+
+

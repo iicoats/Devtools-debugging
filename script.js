@@ -71,12 +71,13 @@ for (let i = 0; i < 5; i++); {
     console.log(i);
 }
 
-// Error 17:
+// Error 17: added a curly bracket
 let five = '5';
 if (five === 5) {
     console.log('Five is equal to 5'); // This one should be logged
 } else {
     console.log('Five is not equal to 5'); 
+}
 
 // Error 18:
 Array.prototype.push = function() {
