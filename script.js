@@ -52,7 +52,7 @@ let importantData =
   "This string must be logged to the console. It's important!";
 console.log('importantData');
 
-// Error 12: 
+// Error 12: does not define what function you are trying to call
 tryToCallFunction();
 
 // Error 13:

@@ -12,5 +12,6 @@ Error 6: Misusing variable scope; removed an extra piece of code
 
 // Error 10: changed the case of a c
 
+// Error 12: does not define what function you are trying to call
 
 
