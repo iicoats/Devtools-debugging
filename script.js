@@ -63,8 +63,8 @@ console.log(user)
 let someNumber = oneHundredTwentyThree;
 console.log(someNumber.toUpperCase()); 
 
-// Error 15: 
-let greeting = Hello, world!;
+// Error 15: added quotes
+let greeting = "Hello, world!";
 
 // Error 16: 
 for (let i = 0; i < 5; i++); {

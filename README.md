@@ -20,4 +20,7 @@ Error 6: Misusing variable scope; removed an extra piece of code
 let someNumber = oneHundredTwentyThree;
 console.log(someNumber.toUpperCase()); 
 
+// Error 15: added quotes
+let greeting = "Hello, world!";
+
 
