@@ -16,4 +16,8 @@ Error 6: Misusing variable scope; removed an extra piece of code
 
 // Error 13: name was spelled wrong;  deleted user from console.log
 
+// Error 14: numbers cannot be changed to upper case unless spelled out
+let someNumber = oneHundredTwentyThree;
+console.log(someNumber.toUpperCase()); 
+
 

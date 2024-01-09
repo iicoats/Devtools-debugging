@@ -59,7 +59,8 @@ tryToCallFunction();
 let user = { name: 'Alice' };
 console.log(user)
 
-// Error 13: name was spelled wrong;  deleted user from console.log
+// Error 14: numbers cannot be changed to upper case unless spelled out
+let someNumber = oneHundredTwentyThree;
 console.log(someNumber.toUpperCase()); 
 
 // Error 15: 
