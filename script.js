@@ -21,11 +21,10 @@ function displayOutput() {
   output.innerText = 'You clicked the button!';
 }
 
-// Error 6: Misusing variable scope
+// Error 6: Misusing variable scope; removed an extra piece of code
 function updateMessage() {
   let localMessage = 'Updated message';
 }
-updateMessage();
 console.log(localMessage); 
 
 // Error 7:
