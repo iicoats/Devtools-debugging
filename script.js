@@ -55,9 +55,9 @@ console.log('importantData');
 // Error 12: does not define what function you are trying to call
 tryToCallFunction();
 
-// Error 13: name was spelled wrong; changed the case of the n to N
+// Error 13: name was spelled wrong;  deleted user from console.log
 let user = { name: 'Alice' };
-console.log(user.Name)
+console.log(user)
 
 // Error 14: 
 let someNumber = 123;
