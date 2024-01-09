@@ -14,4 +14,6 @@ Error 6: Misusing variable scope; removed an extra piece of code
 
 // Error 12: does not define what function you are trying to call
 
+// Error 13: name was spelled wrong;  deleted user from console.log
+
 

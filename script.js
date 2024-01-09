@@ -59,8 +59,7 @@ tryToCallFunction();
 let user = { name: 'Alice' };
 console.log(user)
 
-// Error 14: 
-let someNumber = 123;
+// Error 13: name was spelled wrong;  deleted user from console.log
 console.log(someNumber.toUpperCase()); 
 
 // Error 15: 
