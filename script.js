@@ -5,8 +5,8 @@
 let message = ('Welcome to the debugging exercise!');
 console.log(message); 
 
-// Error 2: 
-let button = document.querySelector('.actionButton'); 
+// Error 2: removed . from "actionButton", eventHandler is not defined
+let button = document.querySelector('actionButton'); 
 button.addEventListener('click', eventHandler); 
 
 // Error 3: changed "Button Clicked" to "click" moved console.log out of curly brackets
@@ -15,7 +15,7 @@ function eventHandler() {
 }
 console.log('click');
 
-// Error 4: 
+// Error 4: no error
 function displayOutput() {
   let output = document.querySelector('#output'); 
   output.innerText = 'You clicked the button!';
@@ -79,15 +79,15 @@ if (five === 5) {
     console.log('Five is not equal to 5'); 
 }
 
-// Error 18:
+// Error 18: I deleted a semi-colon on closing curly bracket
 Array.prototype.push = function() {
     console.log('Array push method is overwritten');
-};
+}
 let numbers = [];
 numbers.push(1);
 console.log(numbers);
 
-// Error 19: there is no function or anything to find the value of x. I dont feel comfortable doing it
+// Error 19: no error
 console.log(x);
 x = 5;
 
